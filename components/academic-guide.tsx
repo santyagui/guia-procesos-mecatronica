@@ -26,7 +26,6 @@ import {
   Menu,
   Receipt,
   RotateCcw,
-  Route,
   Search,
   Settings2,
   Trash2,
@@ -75,7 +74,7 @@ const categories: Array<{
       { title: 'Matrícula extraordinaria', meta: 'Presencial · Matrículas', description: 'Para estudiantes que necesitan matricularse una vez finalizado el período ordinario.', href: 'https://drive.google.com/file/d/1gyycWq_LwhO7PU_nmUbLFyYsz0tx6I6a/view', icon: CalendarPlus },
       { title: 'Matrícula especial', meta: 'Presencial · 15 días', description: 'Solicita autorización después del cierre de las matrículas extraordinarias.', href: 'https://drive.google.com/file/d/14-4uvb9JD_L-qjzYvXDTqbwiDOjTNrvo/view', icon: CalendarCheck },
       { title: 'Matrícula como condicionado oyente', meta: 'Tercera matrícula', description: 'Trámite obligatorio cuando cursarás una asignatura por tercera ocasión.', href: 'https://drive.google.com/file/d/1V8dNWQh_X4mU-7-kNrsfcOFsAsxNd6Fh/view', icon: Ear },
-      { title: 'Matrícula con aprobación previa', meta: 'Condicionado oyente', description: 'Registra asignaturas de condicionado oyente aprobadas en un período anterior.', href: 'https://drive.google.com/file/d/1yWZkz0tHuZB096490iSOOYR0lwfSwN1w/view', icon: BadgeCheck },
+      { title: 'Matrícula con aprobación previa de condicionado oyente', meta: 'Condicionado oyente', description: 'Registra asignaturas de condicionado oyente aprobadas en un período anterior.', href: 'https://drive.google.com/file/d/1yWZkz0tHuZB096490iSOOYR0lwfSwN1w/view', icon: BadgeCheck },
       { title: 'Matrícula después de eliminar la prefactura', meta: 'Falta de pago · Presencial', description: 'Solicita una nueva matrícula cuando la prefactura inicial fue eliminada.', href: 'https://drive.google.com/file/d/1aGTWTGCk8oR6mTqVjBUXppkqFoJCbg_p/view', icon: Receipt },
       { title: 'Reingreso a la carrera', meta: 'En línea · Primer mes', description: 'Orientación para retomar la carrera dentro del plazo institucional.', href: 'https://drive.google.com/file/d/1OLMSGx30WHEcOJiHwFQFpCKATIoqyCsO/view', icon: RotateCcw },
     ],
@@ -84,8 +83,8 @@ const categories: Array<{
     id: 'asignaturas', title: 'Asignaturas', short: 'Asignaturas', icon: Settings2,
     description: 'Ajustes de carga, grupo e itinerario.',
     guides: [
-      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/181ZxkJDA8O4o0lQFWomloXdw03twMGO0/view', icon: ListPlus },
       { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1v5C9E_ECe-gkwbLritbziYUU3w_Evb1o/view', icon: Clock },
+      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/181ZxkJDA8O4o0lQFWomloXdw03twMGO0/view', icon: ListPlus },
       { title: 'Retiro de asignaturas', meta: 'En línea', description: 'Gestiona el retiro y consulta las condiciones de transferencia de valores.', href: 'https://drive.google.com/file/d/1o8vCVMeEuNhExWWb2yhi3ErnMtI6t8Gj/view', icon: ListMinus },
       { title: 'Cambio de grupo', meta: 'En línea · Primer mes', description: 'Solicita el cambio según horarios y cupos disponibles.', href: 'https://drive.google.com/file/d/1uPrJ-WbEeGJsdX-gQxtBR2SqjlYTBgms/view', icon: Users },
       { title: 'Itinerario para nivel de grado', meta: '7.º y 8.º nivel', description: 'Activa el itinerario requerido para las asignaturas ofertadas.', href: 'https://drive.google.com/file/d/18-9cvmTd0w07wxVwDFHpPB7RYSvlCnWe/view', icon: Map },
@@ -95,8 +94,7 @@ const categories: Array<{
     id: 'ingles', title: 'Inglés', short: 'Inglés', icon: Languages,
     description: 'Procesos vinculados con suficiencia de lengua extranjera.',
     guides: [
-      { title: 'Matrícula en nivel superior sin suficiencia', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1CUNV3IRvFdAauryX4x0IigssYAngonHq/view', icon: BookOpenCheck },
-      { title: 'Continuidad sin requisito de lengua extranjera', meta: 'Solicitud en línea', description: 'Consulta la autorización para continuar estudios sin haber cumplido la suficiencia.', href: 'https://drive.google.com/file/d/1CUNV3IRvFdAauryX4x0IigssYAngonHq/view', icon: Route },
+      { title: 'Matrícula en nivel superior sin suficiencia de lengua extranjera', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1CUNV3IRvFdAauryX4x0IigssYAngonHq/view', icon: BookOpenCheck },
       { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1dK-kB9EyzHn5x-TtKvdIpUkSaWRO70o8/view', icon: Trash2 },
     ],
   },
@@ -104,9 +102,9 @@ const categories: Array<{
     id: 'practicas', title: 'Prácticas y servicio comunitario', short: 'Prácticas', icon: BriefcaseBusiness,
     description: 'Asignaturas paracadémicas obligatorias según el nivel.',
     guides: [
-      { title: 'Prácticas de Servicio Comunitario I', meta: '5.º nivel · En línea', description: 'Registra la institución receptora e inicia la asignación.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: HandHeart },
+      { title: 'Prácticas de Servicio Comunitario I', meta: '5.º nivel · En línea', description: 'Consulta el proceso según el calendario de matrículas.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: HandHeart },
       { title: 'Prácticas de Servicio Comunitario II', meta: '6.º nivel · En línea', description: 'Consulta el proceso según el calendario de matrículas.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: Handshake },
-      { title: 'Prácticas Preprofesionales', meta: '7.º nivel · En línea', description: 'Gestiona la asignación e informa los datos de la empresa.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: Factory },
+      { title: 'Prácticas Preprofesionales', meta: '7.º nivel · En línea', description: 'Consulta el proceso según el calendario de matrículas.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: Factory },
     ],
   },
   {
@@ -155,18 +153,17 @@ export default function AcademicGuide() {
 
   return (
     <main id="inicio" className="min-h-screen bg-[#f4f7fb] text-[#082f5d]">
-      <header className="sticky top-0 z-40 border-b border-white/15 bg-[#073b75]/95 text-white shadow-sm backdrop-blur">
-        <div className="mx-auto flex h-20 max-w-7xl items-center gap-3 px-3 sm:gap-4 sm:px-6 lg:px-8">
+      <header className="sticky top-0 z-40 border-b border-white/15 bg-[#073b75]/97 text-white shadow-sm backdrop-blur">
+        <div className="mx-auto flex h-24 max-w-7xl items-center gap-3 px-3 sm:gap-5 sm:px-6 lg:px-8">
           <Sheet>
-            <SheetTrigger className="grid size-11 place-items-center rounded-xl border border-white/20 bg-white/10 transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+            <SheetTrigger className="grid size-12 shrink-0 place-items-center rounded-2xl border border-white/25 bg-white/10 transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               <Menu className="size-6" /><span className="sr-only">Abrir menú de trámites</span>
             </SheetTrigger>
             <SheetContent side="left" className="w-[min(88vw,360px)] border-r-0 bg-[#062f5f] text-white">
               <SheetHeader className="border-b border-white/15 p-6">
                 <div className="flex items-center gap-4">
-                  <div className="flex shrink-0 items-center gap-1 rounded-xl bg-white p-1.5">
-                    <img src="assets/logo-ups-vertical.jpg" alt="Universidad Politécnica Salesiana" className="h-14 w-10 object-contain" />
-                    <img src="assets/escudo-mecatronica.jpeg" alt="Escudo de Ingeniería Mecatrónica UPS" className="h-14 w-12 object-contain" />
+                  <div className="size-16 shrink-0 overflow-hidden rounded-full border-4 border-white bg-white shadow-md">
+                    <img src="assets/logo-ups-vertical.jpg" alt="Emblema de la Universidad Politécnica Salesiana" className="h-full w-full scale-125 object-cover object-top" />
                   </div>
                   <div>
                     <SheetTitle className="text-xl font-bold text-white">Guía académica</SheetTitle>
@@ -183,15 +180,14 @@ export default function AcademicGuide() {
             </SheetContent>
           </Sheet>
 
-          <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
-            <span className="flex shrink-0 items-center rounded-xl bg-white px-2 py-1.5 shadow-sm">
-              <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-7 w-auto sm:h-9" />
+          <div className="flex min-w-0 flex-1 items-center gap-3 sm:gap-4">
+            <span className="flex shrink-0 items-center rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:px-3">
+              <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-10 w-auto sm:h-14" />
             </span>
-            <span className="hidden h-9 w-px shrink-0 bg-white/25 sm:block" />
-            <span className="hidden shrink-0 rounded-xl bg-white px-2 py-1.5 shadow-sm sm:block">
-              <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-8 w-auto lg:h-9" />
+            <span className="hidden h-12 w-px shrink-0 bg-white/30 sm:block" />
+            <span className="hidden shrink-0 rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:block">
+              <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-10 w-auto lg:h-11" />
             </span>
-            <img src="assets/escudo-mecatronica.jpeg" alt="Escudo de Ingeniería Mecatrónica UPS" className="size-10 shrink-0 rounded-xl bg-white object-contain p-1 sm:hidden" />
             <div className="ml-1 hidden min-w-0 xl:block">
               <p className="truncate text-sm font-extrabold tracking-wide">Guía de Procesos Académicos</p>
               <p className="truncate text-xs text-blue-100">Ingeniería Mecatrónica · Sede Quito</p>
@@ -200,18 +196,15 @@ export default function AcademicGuide() {
         </div>
       </header>
 
-      <section className="relative isolate overflow-hidden bg-[#082f5d] text-white">
-        <img src="https://www.ups.edu.ec/documents/20121/354720/mecatronicauio-banner1.jpg" alt="Estudiante trabajando en un proyecto de Mecatrónica" className="absolute inset-0 -z-20 h-full w-full object-cover" />
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(5,35,70,.96)_0%,rgba(5,35,70,.82)_48%,rgba(5,35,70,.25)_100%)]" />
-        <div className="mx-auto grid min-h-[430px] max-w-7xl content-center px-5 py-16 sm:px-8 lg:min-h-[500px] lg:px-10">
-          <div className="mb-7 flex w-fit max-w-full items-center gap-3 rounded-2xl border border-white/30 bg-white/95 px-3 py-2.5 shadow-xl sm:gap-4 sm:px-4 sm:py-3">
-            <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-9 w-auto sm:h-12" />
-            <span className="h-9 w-px shrink-0 bg-slate-200 sm:h-12" />
-            <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-8 w-auto sm:h-11" />
+      <section className="relative isolate overflow-hidden bg-slate-100 text-[#062f5f]">
+        <img src="assets/hero-robotica-colaborativa.png" alt="Laboratorio universitario de robótica colaborativa para Mecatrónica" className="absolute inset-0 -z-20 h-full w-full object-cover object-[69%_center] sm:object-center" />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(255,255,255,.98)_0%,rgba(255,255,255,.93)_42%,rgba(255,255,255,.48)_68%,rgba(255,255,255,.08)_100%)]" />
+        <div className="mx-auto grid min-h-[470px] max-w-7xl content-center px-5 py-16 sm:px-8 lg:min-h-[540px] lg:px-10">
+          <div className="max-w-3xl rounded-3xl bg-white/72 p-5 shadow-[0_18px_50px_rgba(8,47,93,.10)] ring-1 ring-white/80 backdrop-blur-[2px] sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0 sm:backdrop-blur-none">
+            <p className="mb-4 text-sm font-black uppercase tracking-[.2em] text-[#0b69b4]">Sede Quito · Ingeniería Mecatrónica</p>
+            <h1 className="text-4xl font-black leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">Tus trámites académicos, claros y en un solo lugar</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-slate-700 sm:text-lg">Consulta requisitos, plazos y documentos oficiales sin perder tiempo buscando entre diferentes plataformas.</p>
           </div>
-          <p className="mb-4 text-sm font-black uppercase tracking-[.2em] text-[#f5c400]">Sede Quito · Ingeniería Mecatrónica</p>
-          <h1 className="max-w-3xl text-4xl font-black leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">Tus trámites académicos, claros y en un solo lugar</h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-blue-50 sm:text-lg">Consulta requisitos, plazos y documentos oficiales sin perder tiempo buscando entre diferentes plataformas.</p>
           <a href="#explorar" className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-[#f5c400] px-5 py-3 font-extrabold text-[#082f5d] shadow-lg transition hover:-translate-y-0.5 hover:bg-[#ffd72f]">Explorar procesos <ArrowRight className="size-5" /></a>
         </div>
       </section>
@@ -253,6 +246,25 @@ export default function AcademicGuide() {
                 )}
               </Command>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="accesos-rapidos" className="border-b border-blue-100 bg-[#f4f7fb]">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+          <div className="mb-6 text-center sm:text-left">
+            <p className="text-xs font-black uppercase tracking-[.16em] text-[#0b69b4]">Accesos rápidos</p>
+            <h2 id="accesos-rapidos" className="mt-1 text-2xl font-black text-[#073b75] sm:text-3xl">Escanea y accede desde tu teléfono</h2>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2">
+            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
+              <img src="assets/qr-grupo-whatsapp.png" alt="Código QR para el grupo de WhatsApp" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
+              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Grupo de WhatsApp</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para acceder al grupo informativo de estudiantes.</p></figcaption>
+            </figure>
+            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
+              <img src="assets/qr-tramites.png" alt="Código QR para trámites académicos" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
+              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Trámites académicos</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para consultar rápidamente los recursos de trámites.</p></figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -301,21 +313,12 @@ export default function AcademicGuide() {
         )}
       </div>
 
-      <aside className="px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="mx-auto flex max-w-5xl flex-col overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-[0_10px_32px_rgba(8,47,93,.06)] sm:flex-row sm:items-center">
-          <img src="assets/promocion-mecatronica.webp" alt="Estudiante de Ingeniería Mecatrónica de la UPS en un laboratorio" className="h-48 w-full object-cover object-[center_35%] opacity-90 sm:h-44 sm:w-44" />
-          <div className="flex-1 px-6 py-6 sm:px-8">
-            <p className="text-xs font-black uppercase tracking-[.16em] text-[#0b69b4]">Identidad de carrera</p>
-            <h2 className="mt-2 text-2xl font-black text-[#073b75]">Ingeniería Mecatrónica · Sede Quito</h2>
-            <p className="mt-2 max-w-xl leading-7 text-slate-600">Una guía preparada para acompañar de forma clara y práctica los principales procesos académicos de la carrera.</p>
-          </div>
-          <img src="assets/escudo-mecatronica.jpeg" alt="Escudo de Ingeniería Mecatrónica UPS" className="mr-8 hidden h-28 w-24 rounded-2xl object-contain p-2 opacity-85 lg:block" />
-        </div>
-      </aside>
-
       <footer className="bg-[#062f5f] text-blue-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <div><p className="font-extrabold text-white">Guía de Procesos Académicos</p><p className="mt-1 text-sm text-blue-200">Ingeniería Mecatrónica · Universidad Politécnica Salesiana · Sede Quito</p></div>
+          <div className="flex items-center gap-4">
+            <div><p className="font-extrabold text-white">Guía de Procesos Académicos</p><p className="mt-1 text-sm text-blue-200">Ingeniería Mecatrónica · Universidad Politécnica Salesiana · Sede Quito</p></div>
+            <img src="assets/logo-mecatronica-no-oficial.png" alt="Identidad visual estudiantil de Ingeniería Mecatrónica" className="hidden h-14 w-10 rounded-lg bg-white/90 object-contain opacity-65 sm:block" />
+          </div>
           <a href="#inicio" className="font-bold text-[#f5c400]">Volver al inicio ↑</a>
         </div>
       </footer>
