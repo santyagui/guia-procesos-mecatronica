@@ -20,4 +20,3 @@ Para comprobar la versión de producción:
 ```bash
 pnpm build
 ```
-
