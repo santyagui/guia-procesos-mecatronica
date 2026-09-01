@@ -7,6 +7,7 @@ import {
   BookOpenCheck,
   BriefcaseBusiness,
   CalendarCheck,
+  CalendarDays,
   CalendarPlus,
   Clock,
   CreditCard,
@@ -121,6 +122,7 @@ const categories: Array<{
     guides: [
       { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1ObZLynQWbd5g_5i0D5r28mVAy0wAGxUp/view', icon: FilePenLine, resource: true },
       { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1zHUQZXVpv4LkE5dNFBfGuwll5YoitpVE/view', icon: ListOrdered, resource: true },
+      { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1yS3EPywVvdoaXaZfh3gAYXSpJjuoG6I0/view', icon: CalendarDays, resource: true },
     ],
   },
 ];
@@ -154,7 +156,7 @@ export default function AcademicGuide() {
   return (
     <main id="inicio" className="min-h-screen bg-[#f4f7fb] text-[#082f5d]">
       <header className="sticky top-0 z-40 border-b border-white/15 bg-[#073b75]/97 text-white shadow-sm backdrop-blur">
-        <div className="mx-auto flex h-24 max-w-7xl items-center gap-3 px-3 sm:gap-5 sm:px-6 lg:px-8">
+        <div className="relative mx-auto flex h-24 max-w-7xl items-center gap-3 px-3 sm:gap-5 sm:px-6 lg:px-8">
           <Sheet>
             <SheetTrigger className="grid size-12 shrink-0 place-items-center rounded-2xl border border-white/25 bg-white/10 transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               <Menu className="size-6" /><span className="sr-only">Abrir menú de trámites</span>
@@ -184,14 +186,10 @@ export default function AcademicGuide() {
             <span className="flex shrink-0 items-center rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:px-3">
               <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-10 w-auto sm:h-14" />
             </span>
-            <span className="hidden h-12 w-px shrink-0 bg-white/30 sm:block" />
-            <span className="hidden shrink-0 rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:block">
+            <p className="absolute left-1/2 hidden -translate-x-1/2 whitespace-nowrap text-lg font-extrabold tracking-wide text-white lg:block">Mecatrónica - Sede Quito</p>
+            <span className="ml-auto hidden shrink-0 rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:block">
               <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-10 w-auto lg:h-11" />
             </span>
-            <div className="ml-1 hidden min-w-0 xl:block">
-              <p className="truncate text-sm font-extrabold tracking-wide">Guía de Procesos Académicos</p>
-              <p className="truncate text-xs text-blue-100">Ingeniería Mecatrónica · Sede Quito</p>
-            </div>
           </div>
         </div>
       </header>
@@ -202,7 +200,7 @@ export default function AcademicGuide() {
         <div className="mx-auto grid min-h-[470px] max-w-7xl content-center px-5 py-16 sm:px-8 lg:min-h-[540px] lg:px-10">
           <div className="max-w-3xl rounded-3xl bg-white/72 p-5 shadow-[0_18px_50px_rgba(8,47,93,.10)] ring-1 ring-white/80 backdrop-blur-[2px] sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0 sm:backdrop-blur-none">
             <p className="mb-4 text-sm font-black uppercase tracking-[.2em] text-[#0b69b4]">Sede Quito · Ingeniería Mecatrónica</p>
-            <h1 className="text-4xl font-black leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">Tus trámites académicos, claros y en un solo lugar</h1>
+            <h1 className="text-4xl font-black leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">Guía de Procesos Académicos</h1>
             <p className="mt-4 max-w-2xl text-base leading-7 text-slate-700 sm:text-lg">Consulta requisitos, plazos y documentos oficiales sin perder tiempo buscando entre diferentes plataformas.</p>
           </div>
           <a href="#explorar" className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-[#f5c400] px-5 py-3 font-extrabold text-[#082f5d] shadow-lg transition hover:-translate-y-0.5 hover:bg-[#ffd72f]">Explorar procesos <ArrowRight className="size-5" /></a>
