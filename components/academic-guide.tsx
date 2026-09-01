@@ -72,57 +72,57 @@ const categories: Array<{
     id: 'matriculas', title: 'Matrículas', short: 'Matrículas', icon: GraduationCap,
     description: 'Opciones y autorizaciones según tu situación académica.',
     guides: [
-      { title: 'Matrícula extraordinaria', meta: 'Presencial · Matrículas', description: 'Para estudiantes que necesitan matricularse una vez finalizado el período ordinario.', href: 'https://drive.google.com/file/d/1aXkuI_FhpspELh2yiQ-ZlR1y8VUXQbGd/view', icon: CalendarPlus },
-      { title: 'Matrícula especial', meta: 'Presencial · 15 días', description: 'Solicita autorización después del cierre de las matrículas extraordinarias.', href: 'https://drive.google.com/file/d/1_pBP8m1jOoOOo_KUTyyiRAaoOvclRIzM/view', icon: CalendarCheck },
-      { title: 'Matrícula como condicionado oyente', meta: 'Tercera matrícula', description: 'Trámite obligatorio cuando cursarás una asignatura por tercera ocasión.', href: 'https://drive.google.com/file/d/1JHwhK0MDlgpeVEtHr17smUYNakD9qZe_/view', icon: Ear },
-      { title: 'Matrícula con aprobación previa', meta: 'Condicionado oyente', description: 'Registra asignaturas de condicionado oyente aprobadas en un período anterior.', href: 'https://drive.google.com/file/d/1UnQ_fb4dCAGhrKZIM60JLlQi8Xu0x4eP/view', icon: BadgeCheck },
-      { title: 'Matrícula después de eliminar la prefactura', meta: 'Falta de pago · Presencial', description: 'Solicita una nueva matrícula cuando la prefactura inicial fue eliminada.', href: 'https://drive.google.com/file/d/1q3Q9QpWobg34qqplVdqgTxAv6xvoh7pZ/view', icon: Receipt },
-      { title: 'Reingreso a la carrera', meta: 'En línea · Primer mes', description: 'Orientación para retomar la carrera dentro del plazo institucional.', href: 'https://drive.google.com/file/d/1DZS04S8ol4MgiK31bib91jxR69QjgHQD/view', icon: RotateCcw },
+      { title: 'Matrícula extraordinaria', meta: 'Presencial · Matrículas', description: 'Para estudiantes que necesitan matricularse una vez finalizado el período ordinario.', href: 'https://drive.google.com/file/d/1gyycWq_LwhO7PU_nmUbLFyYsz0tx6I6a/view', icon: CalendarPlus },
+      { title: 'Matrícula especial', meta: 'Presencial · 15 días', description: 'Solicita autorización después del cierre de las matrículas extraordinarias.', href: 'https://drive.google.com/file/d/14-4uvb9JD_L-qjzYvXDTqbwiDOjTNrvo/view', icon: CalendarCheck },
+      { title: 'Matrícula como condicionado oyente', meta: 'Tercera matrícula', description: 'Trámite obligatorio cuando cursarás una asignatura por tercera ocasión.', href: 'https://drive.google.com/file/d/1V8dNWQh_X4mU-7-kNrsfcOFsAsxNd6Fh/view', icon: Ear },
+      { title: 'Matrícula con aprobación previa', meta: 'Condicionado oyente', description: 'Registra asignaturas de condicionado oyente aprobadas en un período anterior.', href: 'https://drive.google.com/file/d/1yWZkz0tHuZB096490iSOOYR0lwfSwN1w/view', icon: BadgeCheck },
+      { title: 'Matrícula después de eliminar la prefactura', meta: 'Falta de pago · Presencial', description: 'Solicita una nueva matrícula cuando la prefactura inicial fue eliminada.', href: 'https://drive.google.com/file/d/1aGTWTGCk8oR6mTqVjBUXppkqFoJCbg_p/view', icon: Receipt },
+      { title: 'Reingreso a la carrera', meta: 'En línea · Primer mes', description: 'Orientación para retomar la carrera dentro del plazo institucional.', href: 'https://drive.google.com/file/d/1OLMSGx30WHEcOJiHwFQFpCKATIoqyCsO/view', icon: RotateCcw },
     ],
   },
   {
     id: 'asignaturas', title: 'Asignaturas', short: 'Asignaturas', icon: Settings2,
     description: 'Ajustes de carga, grupo e itinerario.',
     guides: [
-      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/19nRpbLDon_nqLnDr7m9v2nehjKYJwev0/view', icon: ListPlus },
-      { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1r6vNMcVUEx6lxtrxfOiCPLIVu-1Oos-e/view', icon: Clock },
-      { title: 'Retiro de asignaturas', meta: 'En línea', description: 'Gestiona el retiro y consulta las condiciones de transferencia de valores.', href: 'https://drive.google.com/file/d/1lZr3LxzwhRoJg6ggdStPVxxan2mTgpWj/view', icon: ListMinus },
-      { title: 'Cambio de grupo', meta: 'En línea · Primer mes', description: 'Solicita el cambio según horarios y cupos disponibles.', href: 'https://drive.google.com/file/d/1_3RgcJowROdNwFFPYfmL7z0yLW9moYAW/view', icon: Users },
-      { title: 'Itinerario para nivel de grado', meta: '7.º y 8.º nivel', description: 'Activa el itinerario requerido para las asignaturas ofertadas.', href: 'https://drive.google.com/file/d/1GMvBoX2M6rrTNQb4SS5N1jmAC6Sa3cn9/view', icon: Map },
+      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/181ZxkJDA8O4o0lQFWomloXdw03twMGO0/view', icon: ListPlus },
+      { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1v5C9E_ECe-gkwbLritbziYUU3w_Evb1o/view', icon: Clock },
+      { title: 'Retiro de asignaturas', meta: 'En línea', description: 'Gestiona el retiro y consulta las condiciones de transferencia de valores.', href: 'https://drive.google.com/file/d/1o8vCVMeEuNhExWWb2yhi3ErnMtI6t8Gj/view', icon: ListMinus },
+      { title: 'Cambio de grupo', meta: 'En línea · Primer mes', description: 'Solicita el cambio según horarios y cupos disponibles.', href: 'https://drive.google.com/file/d/1uPrJ-WbEeGJsdX-gQxtBR2SqjlYTBgms/view', icon: Users },
+      { title: 'Itinerario para nivel de grado', meta: '7.º y 8.º nivel', description: 'Activa el itinerario requerido para las asignaturas ofertadas.', href: 'https://drive.google.com/file/d/18-9cvmTd0w07wxVwDFHpPB7RYSvlCnWe/view', icon: Map },
     ],
   },
   {
     id: 'ingles', title: 'Inglés', short: 'Inglés', icon: Languages,
     description: 'Procesos vinculados con suficiencia de lengua extranjera.',
     guides: [
-      { title: 'Matrícula en nivel superior sin suficiencia', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1Qu6Yw9daAB2VOBClWvuvsFyV5xoB4j-y/view', icon: BookOpenCheck },
-      { title: 'Continuidad sin requisito de lengua extranjera', meta: 'Solicitud en línea', description: 'Consulta la autorización para continuar estudios sin haber cumplido la suficiencia.', href: 'https://drive.google.com/file/d/1Qu6Yw9daAB2VOBClWvuvsFyV5xoB4j-y/view', icon: Route },
-      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1V1Fky_zCresTK0LV2TTX3byVmog7JELa/view', icon: Trash2 },
+      { title: 'Matrícula en nivel superior sin suficiencia', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1CUNV3IRvFdAauryX4x0IigssYAngonHq/view', icon: BookOpenCheck },
+      { title: 'Continuidad sin requisito de lengua extranjera', meta: 'Solicitud en línea', description: 'Consulta la autorización para continuar estudios sin haber cumplido la suficiencia.', href: 'https://drive.google.com/file/d/1CUNV3IRvFdAauryX4x0IigssYAngonHq/view', icon: Route },
+      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1dK-kB9EyzHn5x-TtKvdIpUkSaWRO70o8/view', icon: Trash2 },
     ],
   },
   {
     id: 'practicas', title: 'Prácticas y servicio comunitario', short: 'Prácticas', icon: BriefcaseBusiness,
     description: 'Asignaturas paracadémicas obligatorias según el nivel.',
     guides: [
-      { title: 'Prácticas de Servicio Comunitario I', meta: '5.º nivel · En línea', description: 'Registra la institución receptora e inicia la asignación.', href: 'https://drive.google.com/file/d/1nkmRaRM3fgVnh9-1AKZF5CL0U8dgtiKH/view', icon: HandHeart },
-      { title: 'Prácticas de Servicio Comunitario II', meta: '6.º nivel · En línea', description: 'Consulta el proceso según el calendario de matrículas.', href: 'https://drive.google.com/file/d/1nkmRaRM3fgVnh9-1AKZF5CL0U8dgtiKH/view', icon: Handshake },
-      { title: 'Prácticas Preprofesionales', meta: '7.º nivel · En línea', description: 'Gestiona la asignación e informa los datos de la empresa.', href: 'https://drive.google.com/file/d/1nkmRaRM3fgVnh9-1AKZF5CL0U8dgtiKH/view', icon: Factory },
+      { title: 'Prácticas de Servicio Comunitario I', meta: '5.º nivel · En línea', description: 'Registra la institución receptora e inicia la asignación.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: HandHeart },
+      { title: 'Prácticas de Servicio Comunitario II', meta: '6.º nivel · En línea', description: 'Consulta el proceso según el calendario de matrículas.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: Handshake },
+      { title: 'Prácticas Preprofesionales', meta: '7.º nivel · En línea', description: 'Gestiona la asignación e informa los datos de la empresa.', href: 'https://drive.google.com/file/d/1QJ9aMfzIzSG61rLTQkLTokij3WPps9vU/view', icon: Factory },
     ],
   },
   {
     id: 'pagos', title: 'Pagos y prefactura', short: 'Pagos', icon: CreditCard,
     description: 'Canales de pago y correcciones previas a una nueva matrícula.',
     guides: [
-      { title: 'Formas de pago UPS', meta: 'En línea y presencial', description: 'Revisa los canales habilitados en la Sede Quito.', href: 'https://drive.google.com/file/d/1pXUlL4p8IAgaOSrgem3-fe7mt5-rjb0c/view', icon: WalletCards },
-      { title: 'Eliminación de prefactura', meta: 'Sin pagos realizados', description: 'Solicita eliminar una prefactura con datos o método de pago incorrectos.', href: 'https://drive.google.com/file/d/1Aak6LjH7hE8x9bhRyWgBUlnHc2raRjZi/view', icon: FileX },
+      { title: 'Formas de pago UPS', meta: 'En línea y presencial', description: 'Revisa los canales habilitados en la Sede Quito.', href: 'https://drive.google.com/file/d/157Rty9jxFDpSq2FWE9OJQmvQI4klx3Nb/view', icon: WalletCards },
+      { title: 'Eliminación de prefactura', meta: 'Sin pagos realizados', description: 'Solicita eliminar una prefactura con datos o método de pago incorrectos.', href: 'https://drive.google.com/file/d/1NWDFm3m0H7W6OVa-ymbw27mwVcDEpbHF/view', icon: FileX },
     ],
   },
   {
     id: 'recursos', title: 'Recursos académicos', short: 'Recursos', icon: FolderOpen,
     description: 'Documentos de consulta rápida para completar tus trámites.',
     guides: [
-      { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://docs.google.com/document/d/1gI3LVrwhPHljCGo2amzLJHshPYgdgt2S/edit', icon: FilePenLine, resource: true },
-      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1eykjYWsewnkDJhWBAK_AqH-vbDvgs67T/view', icon: ListOrdered, resource: true },
+      { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1ObZLynQWbd5g_5i0D5r28mVAy0wAGxUp/view', icon: FilePenLine, resource: true },
+      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1zHUQZXVpv4LkE5dNFBfGuwll5YoitpVE/view', icon: ListOrdered, resource: true },
     ],
   },
 ];
@@ -322,3 +322,4 @@ export default function AcademicGuide() {
     </main>
   );
 }
+
