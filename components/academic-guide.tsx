@@ -182,14 +182,10 @@ export default function AcademicGuide() {
             </SheetContent>
           </Sheet>
 
-          <div className="flex min-w-0 flex-1 items-center gap-3 sm:gap-4">
-            <span className="flex shrink-0 items-center rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:px-3">
-              <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-10 w-auto sm:h-14" />
-            </span>
-            <p className="absolute left-1/2 hidden -translate-x-1/2 whitespace-nowrap text-lg font-extrabold tracking-wide text-white lg:block">Mecatrónica - Sede Quito</p>
-            <span className="ml-auto hidden shrink-0 rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:block">
-              <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-10 w-auto lg:h-11" />
-            </span>
+          <div className="flex min-w-0 items-center gap-2 rounded-2xl bg-white px-2.5 py-2 shadow-sm sm:gap-3 sm:px-3">
+            <img src="assets/logo-ups-horizontal.webp" alt="Universidad Politécnica Salesiana Ecuador" className="h-8 w-auto sm:h-12" />
+            <span className="h-8 w-px shrink-0 bg-slate-200 sm:h-11" />
+            <img src="assets/logo-mecatronica.jpeg" alt="Carrera de Mecatrónica, Sede Quito" className="h-7 w-auto sm:h-10" />
           </div>
         </div>
       </header>
