@@ -246,25 +246,6 @@ export default function AcademicGuide() {
         </div>
       </section>
 
-      <section aria-labelledby="accesos-rapidos" className="border-b border-blue-100 bg-[#f4f7fb]">
-        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-          <div className="mb-6 text-center sm:text-left">
-            <p className="text-xs font-black uppercase tracking-[.16em] text-[#0b69b4]">Accesos rápidos</p>
-            <h2 id="accesos-rapidos" className="mt-1 text-2xl font-black text-[#073b75] sm:text-3xl">Escanea y accede desde tu teléfono</h2>
-          </div>
-          <div className="grid gap-5 md:grid-cols-2">
-            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
-              <img src="assets/qr-grupo-whatsapp.png" alt="Código QR para el grupo de WhatsApp" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
-              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Grupo de WhatsApp</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para acceder al grupo informativo de estudiantes.</p></figcaption>
-            </figure>
-            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
-              <img src="assets/qr-tramites.png" alt="Código QR para trámites académicos" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
-              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Trámites académicos</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para consultar rápidamente los recursos de trámites.</p></figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-
       <div className="py-8 sm:py-12">
         {visibleCategories.map((category, categoryIndex) => {
           const Icon = category.icon;
@@ -308,6 +289,25 @@ export default function AcademicGuide() {
           </div>
         )}
       </div>
+
+      <section aria-labelledby="accesos-rapidos" className="border-t border-blue-100 bg-[#f4f7fb]">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+          <div className="mb-6 text-center sm:text-left">
+            <p className="text-xs font-black uppercase tracking-[.16em] text-[#0b69b4]">Accesos rápidos</p>
+            <h2 id="accesos-rapidos" className="mt-1 text-2xl font-black text-[#073b75] sm:text-3xl">Escanea y accede desde tu teléfono</h2>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2">
+            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
+              <img src="assets/qr-grupo-whatsapp.png" alt="Código QR para el grupo de WhatsApp" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
+              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Grupo de WhatsApp</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para acceder al grupo informativo de estudiantes.</p></figcaption>
+            </figure>
+            <figure className="flex flex-col items-center gap-5 rounded-3xl border border-blue-100 bg-white p-5 text-center shadow-[0_10px_32px_rgba(8,47,93,.07)] sm:flex-row sm:text-left">
+              <img src="assets/qr-tramites.png" alt="Código QR para trámites académicos" className="size-40 shrink-0 rounded-2xl border border-slate-100 bg-white object-contain p-2" />
+              <figcaption><h3 className="text-xl font-extrabold text-[#073b75]">Trámites académicos</h3><p className="mt-2 leading-7 text-slate-600">Escanea el código para consultar rápidamente los recursos de trámites.</p></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
 
       <footer className="bg-[#062f5f] text-blue-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
