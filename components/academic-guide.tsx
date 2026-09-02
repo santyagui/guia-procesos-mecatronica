@@ -167,7 +167,7 @@ export default function AcademicGuide() {
               <SheetHeader className="border-b border-white/15 p-6">
                 <div className="flex items-center gap-4">
                   <div className="size-16 shrink-0 overflow-hidden rounded-full border-4 border-white bg-white shadow-md">
-                    <img src="assets/logo-ups-vertical.jpg" alt="Emblema de la Universidad Politécnica Salesiana" className="h-full w-full scale-125 object-cover object-top" />
+                    <img src="assets/logo-ups-circular.png" alt="Emblema de la Universidad Politécnica Salesiana" className="h-full w-full object-contain" />
                   </div>
                   <div>
                     <SheetTitle className="text-xl font-bold text-white">Guía académica</SheetTitle>
@@ -313,7 +313,7 @@ export default function AcademicGuide() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <div className="flex items-center gap-4">
             <div><p className="font-extrabold text-white">Guía de Procesos Académicos</p><p className="mt-1 text-sm text-blue-200">Ingeniería Mecatrónica · Universidad Politécnica Salesiana · Sede Quito</p></div>
-            <img src="assets/logo-mecatronica-no-oficial.png" alt="Identidad visual estudiantil de Ingeniería Mecatrónica" className="hidden h-14 w-10 rounded-lg bg-white/90 object-contain opacity-65 sm:block" />
+            <img src="assets/logo-mecatronica-actualizado.png" alt="Identidad visual estudiantil de Ingeniería Mecatrónica" className="hidden h-16 w-14 rounded-xl bg-white object-contain opacity-80 sm:block" />
           </div>
           <a href="#inicio" className="font-bold text-[#f5c400]">Volver al inicio ↑</a>
         </div>
