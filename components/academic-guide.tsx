@@ -20,6 +20,7 @@ import {
   HandHeart,
   Handshake,
   Languages,
+  KeyRound,
   ListMinus,
   ListOrdered,
   ListPlus,
@@ -32,6 +33,8 @@ import {
   Trash2,
   Users,
   WalletCards,
+  Wifi,
+  Smartphone,
   type LucideIcon,
 } from 'lucide-react';
 import {
@@ -78,7 +81,14 @@ const categories: Array<{
       { title: 'Matrícula con aprobación previa de condicionado oyente', meta: 'Condicionado oyente', description: 'Registra asignaturas de condicionado oyente aprobadas en un período anterior.', href: 'https://drive.google.com/file/d/170FI-8NKhlQQSro0-eMiMWzckiMwWhah/view', icon: BadgeCheck },
       { title: 'Matrícula después de eliminar la prefactura', meta: 'Falta de pago · Presencial', description: 'Solicita una nueva matrícula cuando la prefactura inicial fue eliminada.', href: 'https://drive.google.com/file/d/1ABg6a3lWRZr41KJyQjugjgsrLC4TCFJg/view', icon: Receipt },
       { title: 'Reingreso a la carrera', meta: 'En línea · Primer mes', description: 'Orientación para retomar la carrera dentro del plazo institucional.', href: 'https://drive.google.com/file/d/1H67tt2vvhtsPqw8PXc-Lct_fXlodkuW8/view', icon: RotateCcw },
-      { title: 'Homologación de institución externa', meta: 'Solicitud en línea', description: 'Homologa asignaturas aprobadas en otra universidad mediante un análisis comparativo de contenidos.', href: 'https://drive.google.com/file/d/1JLlISusVkxdpibi7w4Z9XOofl9dtJewl/view', icon: BookOpenCheck },
+    ],
+  },
+  {
+    id: 'homologaciones', title: 'Homologaciones', short: 'Homologaciones', icon: BookOpenCheck,
+    description: 'Reconocimiento de estudios y conocimientos previos.',
+    guides: [
+      { title: 'Homologación de institución externa', meta: 'Asignaturas aprobadas', description: 'Reconoce asignaturas aprobadas en otra universidad mediante un análisis comparativo de contenidos.', href: 'https://drive.google.com/file/d/1JLlISusVkxdpibi7w4Z9XOofl9dtJewl/view', icon: GraduationCap },
+      { title: 'Homologación por convalidación de conocimientos', meta: 'Examen de convalidación', description: 'Solicita la homologación de asignaturas mediante un examen de convalidación de conocimientos.', href: 'https://drive.google.com/file/d/12iCjfCK7QlUsMyHXpLv5WxQTpxL8cKaV/view', icon: BadgeCheck },
     ],
   },
   {
@@ -126,6 +136,16 @@ const categories: Array<{
       { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1zHUQZXVpv4LkE5dNFBfGuwll5YoitpVE/view', icon: ListOrdered, resource: true },
       { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1eeWOwxDiMrT7OfdH-Fna300fv6_STlcg/view', icon: CalendarDays, resource: true },
       { title: 'Malla curricular · Mecatrónica', meta: 'Malla Ajuste', description: 'Consulta la organización de asignaturas y niveles de la carrera.', href: 'https://drive.google.com/file/d/1y_wr7KSyHqMja_R3Fdgzu70ZoNbkuCCo/view', icon: Map, resource: true },
+    ],
+  },
+  {
+    id: 'recursos-tecnologicos', title: 'Recursos tecnológicos', short: 'Soporte tecnológico', icon: Wifi,
+    description: 'Guías de conectividad y recuperación de acceso institucional.',
+    guides: [
+      { title: 'Conexión WiFi en Android', meta: 'Dispositivos Android', description: 'Configura la red UPS_ESTUDIANTES con tus credenciales institucionales.', href: 'https://drive.google.com/file/d/1FqsM80PwAH94bb1DadAA2b7I6f0c9Fkl/view', icon: Wifi, resource: true },
+      { title: 'Conexión WiFi en iPhone y iPad', meta: 'Dispositivos Apple', description: 'Instala el perfil de conexión para acceder a la red inalámbrica institucional.', href: 'https://drive.google.com/file/d/1_g9b8HbGkSTNS2RiwPVESU8AhTvX9top/view', icon: Smartphone, resource: true },
+      { title: 'Restablecimiento de inicio de sesión', meta: 'Correo institucional', description: 'Cambia tu clave desde la página personal cuando no puedes ingresar al correo institucional.', href: 'https://drive.google.com/file/d/1iSqFwW47deo3e9-Fet5GLK8_VCeaSWJS/view', icon: RotateCcw, resource: true },
+      { title: 'Restablecimiento mediante “Recordar contraseña”', meta: 'Cuenta institucional y AVAC', description: 'Recupera el acceso mediante tu correo personal registrado en la Universidad.', href: 'https://drive.google.com/file/d/1OyAxjhttlK481kiomq0Z97bPoMmCi8eq/view', icon: KeyRound, resource: true },
     ],
   },
 ];
