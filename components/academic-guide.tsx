@@ -133,7 +133,7 @@ const categories: Array<{
     description: 'Documentos de consulta rápida para completar tus trámites.',
     guides: [
       { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1Tlj2x4IY5BdTXr_IxsrkfKtuKiIvD6Ic/view', icon: FilePenLine, resource: true },
-      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1zHUQZXVpv4LkE5dNFBfGuwll5YoitpVE/view', icon: ListOrdered, resource: true },
+      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1eykjYWsewnkDJhWBAK_AqH-vbDvgs67T/view', icon: ListOrdered, resource: true },
       { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1eeWOwxDiMrT7OfdH-Fna300fv6_STlcg/view', icon: CalendarDays, resource: true },
       { title: 'Malla curricular · Mecatrónica', meta: 'Malla Ajuste', description: 'Consulta la organización de asignaturas y niveles de la carrera.', href: 'https://drive.google.com/file/d/1y_wr7KSyHqMja_R3Fdgzu70ZoNbkuCCo/view', icon: Map, resource: true },
     ],
