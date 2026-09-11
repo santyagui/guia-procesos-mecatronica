@@ -292,7 +292,7 @@ export default function AcademicGuide() {
                         <h3 className="text-xl font-extrabold text-[#073b75] sm:text-2xl">{guide.title}</h3>
                         <span className="mt-3 w-fit rounded-lg bg-[#fff0ad] px-3 py-1 text-xs font-black uppercase tracking-wide text-[#765800]">{guide.meta}</span>
                         <p className="mt-4 flex-1 leading-7 text-slate-600">{guide.description}</p>
-                        <a href={guide.href} target="_top" className="mt-6 inline-flex w-fit items-center gap-2 border-b-2 border-[#f5c400] pb-1 font-extrabold text-[#07529a] transition group-hover:gap-3">{guide.resource ? 'Abrir recurso' : 'Ver guía'} <ArrowRight className="size-4" /></a>
+                        <a href={guide.href} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex w-fit items-center gap-2 border-b-2 border-[#f5c400] pb-1 font-extrabold text-[#07529a] transition group-hover:gap-3">{guide.resource ? 'Abrir recurso' : 'Ver guía'} <ArrowRight className="size-4" /></a>
                       </article>
                     );
                   })}
