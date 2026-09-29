@@ -134,6 +134,7 @@ const categories: Array<{
     guides: [
       { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1Tlj2x4IY5BdTXr_IxsrkfKtuKiIvD6Ic/view', icon: FilePenLine, resource: true },
       { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1waVUZElJboA-mMnZrkgSFK5bdMiu0efZ/view', icon: ListOrdered, resource: true },
+            { title: 'Malla curricular', meta: 'Malla Ajuste', description: 'Consulta la distribución de asignaturas, niveles y carga académica de la carrera.', href: 'https://drive.google.com/file/d/1ZDwxF6whPRvjpa6M6T630jOuRVYFNPDP/view', icon: Map, resource: true },
       { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1BV9pbkpnAc88FrVX0bDI04Enh6gzxkKJ/view', icon: CalendarDays, resource: true },
     ],
   },
