@@ -95,7 +95,7 @@ const categories: Array<{
     id: 'asignaturas', title: 'Asignaturas', short: 'Asignaturas', icon: Settings2,
     description: 'Ajustes de carga, grupo e itinerario.',
     guides: [
-      { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1JqJ6n_9M2x2VF5GxYOpQqaBKbTsHFXm-/view', icon: Clock },
+      { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1jOeXLQ0eaDFZPZZskWAgZ01iluO8t3Pl/view?usp=drive_link', icon: Clock },
       { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/1W7gGOORReyyp87BVaRw5VVaoYtm1zBbO/view', icon: ListPlus },
       { title: 'Incremento de asignaturas por eliminación de prefactura', meta: 'En línea · Consejo de Carrera', description: 'Solicita el incremento cuando la prefactura de las asignaturas agregadas fue eliminada por falta de pago.', href: 'https://drive.google.com/file/d/1e_vpOcFog4EKF-m5GQ5qk_J8sc5bCXnX/view', icon: ListPlus },
       { title: 'Retiro de asignaturas', meta: 'En línea', description: 'Gestiona el retiro y consulta las condiciones de transferencia de valores.', href: 'https://drive.google.com/file/d/1noqsPiSRCJPGf4gdgJ_zm5dVQlc35HB-/view', icon: ListMinus },
@@ -108,7 +108,7 @@ const categories: Array<{
     description: 'Procesos vinculados con suficiencia de lengua extranjera.',
     guides: [
       { title: 'Matrícula en nivel superior sin suficiencia de lengua extranjera', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1RqBnEVxZnM2wBSlsndS45lxaEi9BfN5G/view', icon: BookOpenCheck },
-      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1UI7yXHLq9SgabklyM7R9vb7UaxomQQwt/view', icon: Trash2 },
+      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1wmw17RqIlDgTWyuW9naxXDVzJdvLRi-6/view?usp=sharing', icon: Trash2 },
     ],
   },
   {
