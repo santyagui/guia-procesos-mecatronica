@@ -108,7 +108,7 @@ const categories: Array<{
     description: 'Procesos vinculados con suficiencia de lengua extranjera.',
     guides: [
       { title: 'Matrícula en nivel superior sin suficiencia de lengua extranjera', meta: 'Desde 5.º nivel', description: 'Gestiona tu matrícula si todavía no cuentas con suficiencia B1.', href: 'https://drive.google.com/file/d/1RqBnEVxZnM2wBSlsndS45lxaEi9BfN5G/view', icon: BookOpenCheck },
-      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1wmw17RqIlDgTWyuW9naxXDVzJdvLRi-6/view?usp=sharing', icon: Trash2 },
+      { title: 'Eliminación de prematrícula de inglés', meta: 'Primer mes', description: 'Solicita eliminar la prematrícula y revisa las condiciones aplicables.', href: 'https://drive.google.com/file/d/1HW0CPlytSzisxuDyKfoIsnNu7WBBxFkV/view?usp=drive_link', icon: Trash2 },
     ],
   },
   {
@@ -125,7 +125,7 @@ const categories: Array<{
     description: 'Canales de pago y correcciones previas a una nueva matrícula.',
     guides: [
       { title: 'Formas de pago UPS', meta: 'En línea y presencial', description: 'Revisa los canales habilitados en la Sede Quito.', href: 'https://drive.google.com/file/d/14uWq0B56peG_FOjvu22j4PJqF3SDUrmM/view', icon: WalletCards },
-      { title: 'Eliminación de prefactura', meta: 'Sin pagos realizados', description: 'Solicita eliminar una prefactura con datos o método de pago incorrectos.', href: 'https://drive.google.com/file/d/1ne3XVQ25N2InWZPNBxJWJ39pHpOIhNXc/view', icon: FileX },
+      { title: 'Eliminación de prefactura', meta: 'Sin pagos realizados', description: 'Solicita eliminar una prefactura con datos o método de pago incorrectos.', href: 'https://drive.google.com/file/d/1b4f6VLNsnOiJ-x5uk9vVDScrpnfdKQVf/view?usp=drive_link', icon: FileX },
     ],
   },
   {
