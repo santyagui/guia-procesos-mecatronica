@@ -133,20 +133,20 @@ const categories: Array<{
     id: 'recursos', title: 'Recursos académicos', short: 'Recursos', icon: FolderOpen,
     description: 'Documentos de consulta rápida para completar tus trámites.',
     guides: [
-      { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1Tlj2x4IY5BdTXr_IxsrkfKtuKiIvD6Ic/view', icon: FilePenLine, resource: true },
-      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1waVUZElJboA-mMnZrkgSFK5bdMiu0efZ/view', icon: ListOrdered, resource: true },
-            { title: 'Malla curricular', meta: 'Malla Ajuste', description: 'Consulta la distribución de asignaturas, niveles y carga académica de la carrera.', href: 'https://drive.google.com/file/d/1ZDwxF6whPRvjpa6M6T630jOuRVYFNPDP/view', icon: Map, resource: true },
-      { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1BV9pbkpnAc88FrVX0bDI04Enh6gzxkKJ/view', icon: CalendarDays, resource: true },
+      { title: 'Formulario de Registro de Asignaturas', meta: 'Documento editable', description: 'Registra datos personales, facturación y asignaturas.', href: 'https://drive.google.com/file/d/1JS2Auk1IYf4qE-43ZFZk5RE28K3GDhdx/view', icon: FilePenLine, resource: true },
+      { title: 'Códigos de asignaturas – Malla Ajuste', meta: 'Consulta rápida', description: 'Consulta códigos, nombres y horas de la malla ajustada.', href: 'https://drive.google.com/file/d/1f4vz40kKvpKF9m--fzN2WBW5sOnUTeKe/view', icon: ListOrdered, resource: true },
+            { title: 'Malla curricular', meta: 'Malla Ajuste', description: 'Consulta la distribución de asignaturas, niveles y carga académica de la carrera.', href: 'https://drive.google.com/file/d/1IcUbRYfuN-Y9e2gzMpJjRRkF10oIfV4H/view', icon: Map, resource: true },
+      { title: 'Calendario Académico · Período 69', meta: 'Sede Quito', description: 'Consulta las fechas importantes del período académico, matrículas y actividades institucionales.', href: 'https://drive.google.com/file/d/1fZmBT0gckGYDbpKOSRyKeA6ecFMreU9E/view', icon: CalendarDays, resource: true },
     ],
   },
   {
     id: 'recursos-tecnologicos', title: 'Recursos tecnológicos', short: 'Soporte tecnológico', icon: Wifi,
     description: 'Guías de conectividad y recuperación de acceso institucional.',
     guides: [
-      { title: 'Conexión WiFi en Android', meta: 'Dispositivos Android', description: 'Configura la red UPS_ESTUDIANTES con tus credenciales institucionales.', href: 'https://drive.google.com/file/d/1FqsM80PwAH94bb1DadAA2b7I6f0c9Fkl/view', icon: Wifi, resource: true },
-      { title: 'Conexión WiFi en iPhone y iPad', meta: 'Dispositivos Apple', description: 'Instala el perfil de conexión para acceder a la red inalámbrica institucional.', href: 'https://drive.google.com/file/d/1_g9b8HbGkSTNS2RiwPVESU8AhTvX9top/view', icon: Smartphone, resource: true },
-      { title: 'Restablecimiento de inicio de sesión', meta: 'Correo institucional', description: 'Cambia tu clave desde la página personal cuando no puedes ingresar al correo institucional.', href: 'https://drive.google.com/file/d/1iSqFwW47deo3e9-Fet5GLK8_VCeaSWJS/view', icon: RotateCcw, resource: true },
-      { title: 'Restablecimiento mediante “Recordar contraseña”', meta: 'Cuenta institucional y AVAC', description: 'Recupera el acceso mediante tu correo personal registrado en la Universidad.', href: 'https://drive.google.com/file/d/1OyAxjhttlK481kiomq0Z97bPoMmCi8eq/view', icon: KeyRound, resource: true },
+      { title: 'Conexión WiFi en Android', meta: 'Dispositivos Android', description: 'Configura la red UPS_ESTUDIANTES con tus credenciales institucionales.', href: 'https://drive.google.com/file/d/1v9pP9cTBHYt6byhWEPiBCV74TYfRjl1P/view', icon: Wifi, resource: true },
+      { title: 'Conexión WiFi en iPhone y iPad', meta: 'Dispositivos Apple', description: 'Instala el perfil de conexión para acceder a la red inalámbrica institucional.', href: 'https://drive.google.com/file/d/1f_XYwqXBP0i0vt588B1WbdTb09H6n8uu/view', icon: Smartphone, resource: true },
+      { title: 'Restablecimiento de inicio de sesión', meta: 'Correo institucional', description: 'Cambia tu clave desde la página personal cuando no puedes ingresar al correo institucional.', href: 'https://drive.google.com/file/d/1TdN9ILbjqe37ovFzhh9h2e7reK00iPfl/view', icon: RotateCcw, resource: true },
+      { title: 'Restablecimiento mediante “Recordar contraseña”', meta: 'Cuenta institucional y AVAC', description: 'Recupera el acceso mediante tu correo personal registrado en la Universidad.', href: 'https://drive.google.com/file/d/1aF_7DGqDQsKo5W8y4tX1vwmG0xmTIPwZ/view', icon: KeyRound, resource: true },
     ],
   },
 ];
