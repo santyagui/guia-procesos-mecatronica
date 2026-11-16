@@ -97,7 +97,7 @@ const categories: Array<{
     description: 'Ajustes de carga, grupo e itinerario.',
     guides: [
       { title: 'Extensión de horas', meta: 'Antes de matricularse', description: 'Solicita autorización para superar la carga académica regular.', href: 'https://drive.google.com/file/d/1UbJ5p_9ILoqFx2ar3VjB8kH1kzt9bqP5/view', icon: Clock },
-      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/15axDgPSDICBCamyh-z3NnWaCKSl0EmtD/view', icon: ListPlus },
+      { title: 'Incremento de asignaturas', meta: 'En línea · Primer mes', description: 'Agrega asignaturas después de haber realizado tu matrícula.', href: 'https://drive.google.com/file/d/1bhmPCj0BIqCcdzfd4jRAuZw1vZEYWNTU/view?usp=drive_link', icon: ListPlus },
       { title: 'Incremento de asignaturas por eliminación de prefactura', meta: 'En línea · Consejo de Carrera', description: 'Solicita el incremento cuando la prefactura de las asignaturas agregadas fue eliminada por falta de pago.', href: 'https://drive.google.com/file/d/1leuYPFyyXFZh5fFl3E9Dq3GpsDLcCM5T/view', icon: ListPlus },
       { title: 'Retiro de asignaturas', meta: 'En línea', description: 'Gestiona el retiro y consulta las condiciones de transferencia de valores.', href: 'https://drive.google.com/file/d/1MtF4ce4bVZwmpYw2n8l3NyTwa5vF9Lp7/view', icon: ListMinus },
       { title: 'Cambio de grupo', meta: 'En línea · Primer mes', description: 'Solicita el cambio según horarios y cupos disponibles.', href: 'https://drive.google.com/file/d/17EHt4mYqrDyfodGvs1v7esk0sSXsaZhU/view', icon: Users },
